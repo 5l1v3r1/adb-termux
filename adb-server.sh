@@ -26,7 +26,7 @@ fi
 echo -e "\e[32m[*] \e[34mCleaning up..."
 cd $directory
 rm -rf $downpath
-rm -rf adb-server.sh
+rm -rf InstallTools.sh
 echo
 echo -e "\e[32mTools were successfully installed!\e[39m"
 echo
