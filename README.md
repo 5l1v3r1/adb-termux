@@ -9,4 +9,6 @@ git clone https://github.com/ShuBhamg0sain/adb-server
 
 cd adb-server
 
-chmod +x 
+chmod +x adb-server.sh
+
+bash adb-server.sh
