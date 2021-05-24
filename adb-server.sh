@@ -13,11 +13,13 @@ wget https://github.com/ShuBhamg0sain/adb-server/raw/master/bin/adb.bin -P $down
 wget https://github.com/ShuBhamg0sain/adb-server/raw/master/bin/fastboot -P $downpath/ -q
 wget https://github.com/ShuBhamg0sain/adb-server/raw/master/bin/fastboot-armeabi -P $downpath/ -q
 echo -e "\e[32m[*] \e[34mCopying files to bin..."
-cp $downpath/* $PREFIX/bin
+cd bin
 echo -e "\e[32m[*] \e[34mSetting execution permissions..."
-files="$(ls $downpath)"
-cd $PREFIX/bin
-chmod +x $files
+chmod +x 
+chmod +x 
+chmod +x 
+chmod +x 
+chmod +x 
 echo -e "\e[32m[*] \e[34mCreating workspace directory..."
 cd $HOME
 if [ ! -d "adbfiles" ]; then
