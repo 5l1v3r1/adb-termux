@@ -13,4 +13,4 @@ apt update > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 &&
 
 
 # Uninstalltion
-apt update && apt install wget && wget https://github.com/MasterDevX/Termux-ADB/raw/master/InstallTools.sh && bash uninstall.sh
+apt update && apt install wget && wget https://raw.githubusercontent.com/ShuBhamg0sain/adb-termux/main/uninstall.sh && bash uninstall.sh
