@@ -8,15 +8,11 @@
 
 
 # installation
-apt update && apt upgrade
-
-apt install wget
-
-wget https://raw.githubusercontent.com/ShuBhamg0sain/adb-termux/main/install.sh && bash install.sh
+* apt update && apt upgrade
+* apt install wget && wget https://raw.githubusercontent.com/ShuBhamg0sain/adb-termux/main/install.sh && bash install.sh
 
 
 
 # Uninstalltion
-apt update && apt install wget 
-
-wget https://raw.githubusercontent.com/ShuBhamg0sain/adb-termux/main/uninstall.sh && bash uninstall.sh
+* apt update && apt install wget 
+* wget https://raw.githubusercontent.com/ShuBhamg0sain/adb-termux/main/uninstall.sh && bash uninstall.sh
