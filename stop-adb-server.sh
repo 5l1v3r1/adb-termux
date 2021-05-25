@@ -15,7 +15,7 @@ case `find $HOME/adbfiles -type f | wc -l` in
   rm -rf $HOME/adbfiles/adbkey $HOME/adbfiles/adbkey.pub ;;
 esac
 echo -e "\e[32m[*] \e[34mCleaning up..."
-rm -rf RemoveTools.sh
+rm -rf uninstall.sh
 echo
 echo -e "\e[32mTools were successfully uninstalled!\e[39m"
 echo
