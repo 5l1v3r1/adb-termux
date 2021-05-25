@@ -8,7 +8,7 @@
 
 
 # installation
-apt update > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 && wget https://raw.githubusercontent.com/ShuBhamg0sain/adb-termux/main/install.sh -q && bash install.sh
+apt update && apt upgrade && apt install wget && wget https://raw.githubusercontent.com/ShuBhamg0sain/adb-termux/main/install.sh && bash install.sh
 
 
 
